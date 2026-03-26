@@ -1,5 +1,5 @@
-import airportLabsHomePage from '../../pages/AirportLabsHomePage';
-import airportLabsBlogPage from '../../pages/AirportLabsBlogPage';
+import airportLabsHomePage from '../../pages/airportlabs/AirportLabsHomePage';
+import airportLabsBlogPage from '../../pages/airportlabs/AirportLabsBlogPage';
 
 describe('AirportLabs Homepage - Part 1', () => {
   beforeEach(() => {

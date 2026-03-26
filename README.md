@@ -13,11 +13,16 @@ npm install
 ## Run tests
 npm run cy:open
 
-After Cypress opens in a separate window, select E2E Testing, choose Chrome, and click Start. 
-Once the browser opens, run the "airportlabs" spec file.
+or
 
-## Structure
-- cypress/e2e/airportlabs - AirportLabs test scenarios
-- cypress/fixtures - fixture data
-- cypress/pages - page object files
+npm run cy:run
+
+After Cypress opens in a separate window, click E2E Testing, select Chrome, and click Start. Then open the spec file you want to run.
+
+## Project structure
+- cypress/e2e/airportlabs - Part 1 test scenarios
+- cypress/e2e/shopping - Part 2 shopping flow
+- cypress/fixtures - fixture data for data-driven tests
+- cypress/pages/airportlabs - page objects for Part 1
+- cypress/pages/shopping - page objects for Part 2
 - cypress/support - support files and custom commands
